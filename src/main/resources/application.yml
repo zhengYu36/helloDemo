@@ -4,3 +4,12 @@ server:
     uri-encoding: UTF-8
   servlet:
     context-path: /hello
+
+mqtt:
+  serverURIs: tcp://serviceId:1883
+  username: root
+  password: 123456
+  qos: 1
+  client:
+    id: server13
+  topic: topic_default
